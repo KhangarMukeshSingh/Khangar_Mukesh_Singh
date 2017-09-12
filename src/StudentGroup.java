@@ -20,7 +20,7 @@ public class StudentGroup implements StudentArrayOperation {
 	 * DO NOT remove or change this constructor, it will be used during task check
 	 * @param length
 	 */
-	ArrayList<Integer> al = new ArrayList<Integer>();
+	//ArrayList<Integer> al = new ArrayList<Integer>();
 	public StudentGroup(int length) {
 		this.students = new Student[length];
 	}
@@ -64,7 +64,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void add(Student student, int index) {
 		// Add your implementation here
-		al.add("s1",1);
+	//	al.add("s1",1);
 		
 		
 	}
@@ -72,13 +72,13 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void remove(int index) {
 		// Add your implementation here
-		sg.remove(1);
+	//	sg.remove(1);
 	}
 
 	@Override
 	public void remove(Student student) {
 		// Add your implementation here
-		sg.remove("s1");
+	//	sg.remove("s1");
 	}
 
 	@Override
