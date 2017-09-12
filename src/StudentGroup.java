@@ -64,6 +64,9 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void add(Student student, int index) {
 		// Add your implementation here
+		ArrayList<String> str=new ArrayList<String>();
+	    str.add("s1");
+	    str.add("s2");
 	//	al.add("s1",1);
 		
 		
