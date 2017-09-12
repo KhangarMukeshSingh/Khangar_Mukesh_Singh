@@ -29,13 +29,14 @@ public class StudentGroup implements StudentArrayOperation {
 	public Student[] getStudents() {
 		// Add your implementation here
 		
-		return students;
+		return null;
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
 		// Add your implementation here
-		
+		//sg.setId("s1",1);
+	   
 	}
 
 	@Override
@@ -63,7 +64,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void add(Student student, int index) {
 		// Add your implementation here
-		
+		al.add("s1",1);
 		
 		
 	}
@@ -71,11 +72,13 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void remove(int index) {
 		// Add your implementation here
+		sg.remove(1);
 	}
 
 	@Override
 	public void remove(Student student) {
 		// Add your implementation here
+		sg.remove("s1");
 	}
 
 	@Override

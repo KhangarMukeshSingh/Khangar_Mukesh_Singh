@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -15,7 +17,9 @@ public class Main {
 		s1.getAvgMark();
 		s1.setAvgMark();
 		s1.hashCode();
-		
+        ArrayList<Integer> al=new ArrayList<Integer>();
+        al.add("s1");
+        al.add("s2");
 	}
 
 }
