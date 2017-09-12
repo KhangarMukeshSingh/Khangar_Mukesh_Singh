@@ -20,7 +20,7 @@ public class Main {
         //ArrayList<Integer> al=new ArrayList<Integer>();
        // al.add("s1");
        // al.add("s2");
-		ArrayList<Integer> al = new ArrayList<Integer>();
+		//ArrayList<Integer> al = new ArrayList<Integer>();
         StudentGroup sg=new StudentGroup();
         sg.getStudents();
         sg.setStudents()

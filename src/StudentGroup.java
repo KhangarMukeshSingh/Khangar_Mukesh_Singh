@@ -20,7 +20,8 @@ public class StudentGroup implements StudentArrayOperation {
 	 * DO NOT remove or change this constructor, it will be used during task check
 	 * @param length
 	 */
-	ArrayList<String> str = new ArrayList<String>();
+	ArrayList all = new ArrayList();
+	//ArrayList<String> str = new ArrayList<String>();
 	public StudentGroup(int length) {
 		this.students = new Student[length];
 	}
@@ -42,7 +43,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student getStudent(int index) {
 		// Add your implementation here
-		return students[index];
+		return null;
 	}
 
 	@Override
@@ -53,20 +54,21 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void addFirst(Student student) {
 		// Add your implementation here
-		
+		all.add(student);
 	}
 
 	@Override
 	public void addLast(Student student) {
 		// Add your implementation here
+		all.add(student);
 	}
 
 	@Override
 	public void add(Student student, int index) {
 		// Add your implementation here
-		ArrayList<String> str=new ArrayList<String>();
-	    str.add("s1");
-	    str.add("s2");
+	//	ArrayList<String> str=new ArrayList<String>();
+	//    str.add("s1");
+	//    str.add("s2");
 	//	al.add("s1",1);
 		
 		
@@ -75,13 +77,13 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void remove(int index) {
 		// Add your implementation here
-		str.remove(1);
+		all.remove(index);
 	}
 
 	@Override
 	public void remove(Student student) {
 		// Add your implementation here
-	//	sg.remove("s1");
+		all.remove(student);
 	}
 
 	@Override
@@ -107,7 +109,19 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void bubbleSort() {
 		// Add your implementation here
-		
+		/* int n = arr.length;  
+	        int temp = 0;  
+	         for(int i=0; i < n; i++){  
+	                 for(int j=1; j < (n-i); j++){  
+	                          if(arr[j-1] > arr[j]){  
+	                                 //swap elements  
+	                                 temp = arr[j-1];  
+	                                 arr[j-1] = arr[j];  
+	                                 arr[j] = temp;  
+	                         }  
+	                          
+	                 }  
+	         }  */
 	}
 
 	@Override
