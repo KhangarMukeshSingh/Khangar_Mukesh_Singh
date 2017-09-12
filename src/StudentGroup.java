@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -19,6 +20,7 @@ public class StudentGroup implements StudentArrayOperation {
 	 * DO NOT remove or change this constructor, it will be used during task check
 	 * @param length
 	 */
+	ArrayList<Integer> al = new ArrayList<Integer>();
 	public StudentGroup(int length) {
 		this.students = new Student[length];
 	}
@@ -26,12 +28,14 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getStudents() {
 		// Add your implementation here
+		
 		return null;
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
 		// Add your implementation here
+		
 	}
 
 	@Override
@@ -48,6 +52,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void addFirst(Student student) {
 		// Add your implementation here
+		
 	}
 
 	@Override
@@ -58,6 +63,9 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void add(Student student, int index) {
 		// Add your implementation here
+		
+		
+		
 	}
 
 	@Override
